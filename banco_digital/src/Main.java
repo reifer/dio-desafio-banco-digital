@@ -3,9 +3,10 @@ public class Main {
 	public static void main(String[] args) {
 		Conta cc = new ContaCorrente();
 		Conta cp = new ContaPoupanca();
+		Conta ccjConta = new ContaConjunta();
 		
-		cc.depositar(1000);
-		cp.depositar(400);
+		cc.depositar(2000);
+		cp.depositar(500);
 		
 		cc.imprimirExtrato();
 		cp.imprimirExtrato();
@@ -13,7 +14,7 @@ public class Main {
 		
 		cp.imprimirExtrato();
 		
-		cc.transferir(500, cp);
+		cc.transferir(700, cp);
 		
 		cc.imprimirExtrato();
 		cp.imprimirExtrato();
