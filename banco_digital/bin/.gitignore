@@ -1,7 +1,6 @@
-/Banco.class
-/Cliente.class
-/Conta.class
-/ContaCorrente.class
-/ContaPoupanca.class
-/IConta.class
-/Main.class
+/Funcionario.class
+/Administrativo.class
+/Analista.class
+/Diretor.class
+/Gerente.class
+/ContaFuncionario.class
